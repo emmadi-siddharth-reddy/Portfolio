@@ -1,0 +1,29 @@
+.github-logo {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    margin-right: 8px; /* Space between the logo and text */
+    vertical-align: middle; /* Aligns the logo with the text */
+}
+section{
+    background-color: #bca89f;
+    color: #0b0c10;
+    padding: 1.5% 0;
+    font-size: 40px;
+    padding-left: 50px;
+}
+h3{
+    color: #4c3228;
+    font-size: 55px;
+    padding-left: 40px;
+}
+h5{
+    padding-left: 50px;
+}
+a{
+    color: #4c3228;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: 41px;
+  }
