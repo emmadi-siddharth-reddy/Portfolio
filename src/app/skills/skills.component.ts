@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { ProjectsComponent } from '../projects/projects.component';
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [ProjectsComponent],
+  imports: [],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
 })

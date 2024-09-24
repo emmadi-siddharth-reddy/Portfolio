@@ -51,33 +51,23 @@ section{
   }
   
   
-  /* Links Styling */
   section a {
-    display: block; /* Each link in a separate line */
-    font-size: 18px; /* Font size for links */
-    color: #a6a6a6; /* Blue link color */
-    text-decoration: none; /* Remove underline */
-    margin: 0.5rem 0; /* Vertical spacing */
+    display: block; 
+    font-size: 18px; 
+    color: #a6a6a6;
+    text-decoration: none; 
   }
   
   section a:hover {
     text-decoration: underline;
     font-size: 19px;
-     /* Underline on hover */
   }
   
-  /* Email Styling */
-  section a:first-of-type {
-    font-weight: bold; /* Make email bold */
-    color: #a6a6a6; /* Darker color for email */
-  }
   
-  /* Paragraph Styling */
   
-  /* Responsive Design */
+  
   @media (max-width: 700px) {
     section {
-      /* Reduce margin on small screens */
       display: flex;
     flex-direction: column; 
     }
